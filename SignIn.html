@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Sign In</title>
+<link rel="stylesheet" href="assets/css/external.css">
+<link rel="stylesheet" href="assets/css/Sign.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script> <!-- for symbols -->
+<script src="assets/js/SignIn.js"></script>
+<meta charset="UTF-8">
+</head>
+<body>
+<!------------------------------------------------------------------------------------------------------------------------------------>
+<!-- BAR -->
+<!------------------------------------------------------------------------------------------------------------------------------------>
+<div class="w3-bar">
+
+    <img src="assets/img/logo.png" alt="image" class="paddingbar1">
+    <a href="SignIn.html" class="w3-bar-item w3-button active"><i class="fas fa-user-alt"></i> sign in/sign up</a>
+    <a href="index.html" class="w3-bar-item w3-button"><i class="fas fa-home"></i> home</a>
+    <a href="AboutUs.html" class="w3-bar-item w3-button"><i class="fas fa-street-view"></i> about us</a>
+    <a href="ShareUs.html" class="w3-bar-item w3-button"><i class="fab fa-slideshare"></i> share us</a>
+    <a href="Contact.html" class="w3-bar-item w3-button"><i class="fas fa-comments"></i> contact us</a>
+
+  
+  
+            <div class="searchtext">
+                <input placeholder='Search...' class='searchtext' type="text">
+            </div>
+        
+        <!-- col 6 cart & star -->
+        <a href="ErrorSignIn.html" class="option margbt">
+        <img src="assets/img/icons/buy2.png" style="width: 25px; height: 25px;"></a> 
+        <a href="ErrorSignIn.html" class="option">
+        <img src="assets/img/icons/star2.png" style="width: 25px; height: 25px;"></a> 
+        
+        <!-- language-->
+        <label for="language"></label>
+        <select name="language" id="language" class="select1">
+        <option value="English">EN</option>
+        <option value="Arabic">AR</option>
+        </select>
+        
+        <!--  currency-->
+        <label for="currency"></label>
+        <select name="currency" id="currency" class="select2">
+        <option value="USD">USD</option>
+        <option value="SR">SR</option>	   
+        </select>
+        
+        </div>  
+<!----------------------------------------------------------------------------------------------------------------------------------->
+<!----------------------------------------------------------------------------------------------------------------------------------->
+<div class="main">
+<div class="heightSign">
+
+<div class="path">
+<a href="HomePage.html">home</a><font> / sign in</font>
+</div>
+
+<div class="bg-img">
+<div class="containerSign container1">
+
+    <form name="form" action="index.html" onsubmit="return validateForm()">
+    <h2>sign in</h2>
+	
+	<div id="err" class="text-err"></div>
+	
+    <label for="email">Username</label><br>
+    <input type="text" onfocus="onFocus1()" onblur="unFocus1()" name="username" id="username" placeholder="Enter your usrename">
+    <br>
+    <label for="psw">Password</label>
+    <br>
+    <input type="password"onfocus="onFocus2()" onblur="unFocus2()"  name="psw" id="psw" placeholder="Enter your password">
+    <br>  
+
+    <input type="checkbox" name="remember" id="remember" value="yes">
+    <label for="remember">remember me</label>
+
+
+    <input onclick="validateForm()" type="submit" value="sign in">
+    <div class="text1">don't have an account? <a href="SignUp.html">sign up</a></div>
+	<div class="text2">forget the password? <a href="">reset it</a></div>
+  
+    </form>
+	
+</div> <!-- end img -->
+</div> <!-- end container -->
+</div> <!-- end height background -->
+</div> <!-- end main -->
+<!------------------------------------------------------------------------------------------------------------------------------------>
+<!-- FOTTER -->
+<!------------------------------------------------------------------------------------------------------------------------------------>
+<footer >
+<table>
+<tr>
+<!-------------------------------------------------->
+<td>
+
+    <div class="p1">
+        book lover store
+        </div> 
+        <div class="p2">
+        the aim of this website is to help <br>
+        the book lovers to find their<br>
+        favorite books. where they can<br>
+        request any book they want to<br>
+        provide it to them.
+        </div>
+
+</td>
+<!-------------------------------------------------->
+<td>
+<div class="vl"></div>
+</td>
+<!-------------------------------------------------->
+<td>
+<h5>menu</h5>
+<ul> 
+    <li>
+	<a href="SelfDevelopmentBooks.html">self development books</a>
+    </li>
+
+    <li>
+	<a href="ChildrenBooks.html">children books</a>
+    </li>
+
+    <li>
+	<a href="TechnicalBooks">technical books</a>
+    </li>
+	
+	<li>
+	<a href="MedicalBooks">medical books</a>
+    </li>	
+</ul>
+</td>
+<!-------------------------------------------------->
+<td>
+<div class="vl"></div>
+</td>
+<!-------------------------------------------------->
+<td>
+<h5>follow us</h5>
+<ul> 
+    <li>
+	<a href="#">facebook</a>
+    </li>
+
+    <li>
+	<a href="#">instagram</a>
+    </li>
+
+    <li>
+	<a href="#">twitter</a>
+    </li>
+	
+	<li>
+	<a href="#">linkedin</a>
+    </li>
+</ul>
+</td>
+<!-------------------------------------------------->
+<td><div class="vl"></div></td>
+<!--------------------------------------------------> 
+<td>
+<img src="assets/img/logo.png" style="width:180px; height: 180px; margin-left: 20px; margin-top: 20px;">
+</td>
+<!-------------------------------------------------->
+</tr>
+</table>
+</footer>
+<!------------------------------------------------------------------------------------------------------------------------------------>
+</body>
+</html>

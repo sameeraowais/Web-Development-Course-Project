@@ -1,0 +1,158 @@
+.hightSahre
+{
+	  height: 860px;
+}
+
+.hightRequest
+{
+   height: 770px;
+}
+
+.hightThanks
+{
+	  height: 630px;
+}
+/*--------------------------------------------------*/
+.main .path{
+		margin-left:10px;
+		margin-top:10px;
+}
+.main .path a{
+	text-decoration: none;
+	color:#1A2F74;
+}
+.main .path a:hover{
+	text-decoration: underline;
+}
+
+.main font{
+	color: #1A2F74;
+}
+/*--------------------------------------------------*/
+.main  h1 {
+  text-align: center;
+  color:#1A2F74;
+  padding-top:55px;
+}
+
+.main  h2{
+  text-align: center;
+  color:#1A2F74;
+  padding-top:20px;
+}
+
+.main  h3{
+  text-align: center;
+  color:gray;
+}
+
+.main  h4{
+  text-align: center;
+  color:gray;
+}
+
+.main pre{
+  text-align: center;
+  color: #778899; 
+}
+/*--------------------------------------------------*/
+.main img {
+	margin-left:330px;
+	height: 40%;
+	width:35%;
+}
+/*--------------------------------------------------*/
+.container input[type=text], .container select, .container textarea {
+  width: 100%;
+  padding: 12px; /* All sides the same - T R B L */
+  border: 1px solid #ccc; /* size type color */
+  border-radius: 4px;
+  resize: vertical;
+  font-family: Quicksand; 
+}
+/*--------------------------------------------------*/
+.container label {
+  padding: 12px 12px 12px 0; /* T R B L */
+  display: inline-block;
+}
+/*--------------------------------------------------*/
+.container input[type=submit] {
+  color: white;
+  background-color: LIGHTSTEELBLUE;
+  font-family: Marcellus SC; 
+  padding: 12px 20px; /* T R */
+  border: none; /* Delete its frame */
+  border-radius: 4px;
+  cursor: pointer;
+  float: right; /* Its location is on the right */ 
+}
+
+.container input[type=submit]:hover { /* hover: to change the element style when you mouse over it */
+  background-color: #1A2F74; /* change the element color */
+}
+/*--------------------------------------------------*/
+.container {
+  border-radius: 5px; /* contener of form  */
+  background-color: #f2f2f2; /* contener of form  */
+  margin-right: 100px; /* contener of form  */
+  margin-left: 130px; /* contener of form  */
+  padding:30px; /* btween the form and the contener of form */
+}
+
+.container .col-25 {
+  float: left; /* Start from the left */
+  width: 20%; /* Space between text and label */
+  margin-top: 6px;
+}
+
+.container .col-75 {
+  float: left;
+  width: 80%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.paddingContener{
+  padding-right: 3%;
+}
+
+.paddingContents
+{
+	padding-top: 13px;
+}
+.paddingRadio
+{
+	padding-top: 6px;
+}
+
+/*** hanksForShareUs.html ***/
+
+.main a {
+  color: #4682B4;
+}
+
+.main a:hover {
+  color: LIGHTSTEELBLUE;
+}
+
+.main .text-err{
+	font-size: 12px;
+	font-family: Quicksand;
+    color:#C70039;
+		text-align:center;
+		  margin-left: -20px;
+		  font-weight: bold;
+		  float:right;
+}
+
+.list{
+	  float: left;
+  margin-top: 6px;
+	width: 20%;
+}

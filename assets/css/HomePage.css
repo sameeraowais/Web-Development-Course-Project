@@ -1,0 +1,58 @@
+h1 {
+    color:#404040;
+    font-size: 50px; 
+    word-break: break-all;
+    text-align: center; 
+}
+
+h2{	
+    text-align: center;
+    color:#1A2F74;
+}
+
+h4{
+    text-align: center;
+    color:#404040;
+}
+
+hr{
+    border: 0.1px solid #D6DCE5;
+    margin-top:-10px;
+    width:800px;
+}
+
+.line{
+	border: 0.1px solid #D6DCE5;
+    width:1047px;
+}
+.homeimg{	
+	background-repeat: no-repeat;
+	width:600px; 
+	height:400px; 
+	margin-left:220px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.row {
+    margin-left:90px;
+}
+
+.cateimg {
+    width: 150px;
+    height:150px;
+}
+
+.column {
+    float: left;
+    width: 180px;
+    margin:20px;
+}
+
+.card {
+    border:none;
+    width:175px;
+    padding: 10px;
+}

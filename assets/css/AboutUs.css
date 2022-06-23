@@ -1,0 +1,71 @@
+
+.heightBackground{
+	height:1000px;
+}
+.img1{
+	margin:20px 400px 0;
+}
+
+.img2{
+	width:50px;
+	height:50px;
+	margin-left:500px;
+	margin-top:7px;
+}
+h1 {
+  color: #1A2F74;
+  font-size: 40px; 
+  word-break: break-all;
+  text-align: center; 
+}
+
+.main pre{
+		font-size: 15px; 
+	font-family: Marcellus SC; 
+	  color: #778899; 
+	text-align: center; 
+
+}
+
+hr{
+	border: 0.1px solid #D6DCE5;
+margin-top:-20px;
+	width:290px;
+}
+
+.text1{
+	font-size: 30px; 
+	font-family: Marcellus SC; 
+	color: #4D54BE;
+	text-align: center; 
+}
+
+.text2{
+	font-size: 20px; 
+	font-family: Marcellus SC; 
+	color: LIGHTSTEELBLUE;
+	text-align: center; 
+}
+
+.main i{
+margin-top: 20px;
+color:LIGHTSTEELBLUE;
+}
+
+.main .path{
+		margin-left:10px;
+		margin-top:10px;
+}
+.main .path a{
+	text-decoration: none;
+	color:#1A2F74;
+}
+.main .path a:hover{
+	text-decoration: underline;
+}
+
+.main font{
+	color: #1A2F74;
+}
+
+
