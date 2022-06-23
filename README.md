@@ -1,4 +1,4 @@
-# Book-Lover Store | Web Development Course Project
+# Book Lover Store | Web Development Course Project
 
 | Book lover store established in saudi arabia in 2020.
 The aim of this website is to help the book lovers to find their favorite books,
@@ -14,4 +14,4 @@ you can share as with your books,
 even you can request any book you want to provided for you.
 
 
-| Developed By: Eng. Sameera Khalid Owais.
+| Developed By: Eng. Sameera Khalid Owais
