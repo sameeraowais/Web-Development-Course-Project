@@ -1,6 +1,6 @@
 # Book-Lover Store | Web Development Course Project
 
-|Book lover store established in saudi arabia in 2020.
+| Book lover store established in saudi arabia in 2020.
 The aim of this website is to help the book lovers to find their favorite books,
 where they can request any book they want to provide it to them, 
 also helps the blind people to take the benefit from the books through hearing it as a broadcast.
