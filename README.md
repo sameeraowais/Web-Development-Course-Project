@@ -10,9 +10,6 @@ The aim of this website is to help the book lovers to find their favorite books,
 where they can request any book they want to provide it to them,
 also helps the blind people to take the benefit from the books through hearing it as a broadcast.
 
-### FEATURES
-#### Providing books<br />
-You can buy a book or read it through the link or download it, even you can hear it as a broadcast.
-
-#### Share us<br />
-You can share as with your books, even you can request any book you want to provided for you.
+## FEATURES
+> Providing books: you can buy a book or read it through the link or download it, even you can hear it as a broadcast.<br />
+And You can share as with your books, even you can request any book you want to provided for you.
