@@ -13,3 +13,7 @@ also helps the blind people to take the benefit from the books through hearing i
 ## FEATURES
 > Providing books: you can buy a book or read it through the link or download it, even you can hear it as a broadcast.<br />
 And You can share as with your books, even you can request any book you want to provided for you.
+
+## Used Software
+> Frontend: HTML5, CSS, and JavaScript. <br />
+Editor: Visual Studio Code<br />
